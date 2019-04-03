@@ -1,31 +1,56 @@
 body {
   color:black;
-  font-family: 'LinuxLibertineDisplayORegular';
-  color: #B5B4B4;
-  background-color: black;
+  font-family: 'LinuxLibertineDisplayRegular';
+  color: #000000;
+  background-color: white;
+  font-size: 24px;
 }
 
 h1 {
     font-family: 'LinuxLibertineORegular'; 
     font-size: 40px;
-    color: #B5B4B4;
+    color: #65AD14;
 }
 
 h2 {
     font-family: 'LinuxLibertineSemibold'; 
     font-size: 30px;
-    color: #B5B4B4;
+    color: #65AD14;
 }
 
-p {
+h2 {
+    font-family: 'LinuxLibertineSemibold'; 
+    font-size: 30px;
+    color: #65AD14;
+}
+
+h3 {
+    font-family: 'LinuxLibertineSemibold'; 
+    font-size: 24px;
+    color: #65AD14;
+}
+
+table, th, td {
+  border: 0px solid black;
+  vertical-align: middle;
+  text-align: center;
+  /*border-collapse: collapse;*/
+  /*border-spacing: 0;*/
+}
+
+th {
     font-family: 'LinuxLibertineDisplayRegular'; 
     font-size: 24px;
-    color: #B5B4B4;
 }
 
-a:link {color: #65AD14; text-decoration: none; }
+td {
+    font-family: 'LinuxLibertineDisplayRegular'; 
+    font-size: 24px;
+}
+
+a:link {color: #000000; text-decoration: none; }
 a:active {color: #65AD14; text-decoration: none; }
-a:visited {color: #65AD14; text-decoration: none; }
+a:visited {color: #000000; text-decoration: none; }
 a:hover {color: #65AD14; text-decoration: underline; }
 
 .title {
@@ -41,20 +66,13 @@ a:hover {color: #65AD14; text-decoration: underline; }
 }
 
 .textsection {
-  text-align: left;
+  text-align: justify;
   width:1000px;
 }
 
 .vgap{
   width:1000px;
   height:30;
-}
-
-.bio {
-  width:1000px;
-  height:300px;
-  display:flex;
-  align-items:center;
 }
 
 .biohgap {
